@@ -23,7 +23,7 @@ public class AddressBookManager {
 		while (!isExitAddressBook) {
 
 			System.out.println("Select menu");
-			System.out.println("1. New Address Book\n2. Open Address Book\n" + "3. Save Address Book\n"
+			System.out.println("1. New Address Book\n" + "2. Open Address Book\n" + "3. Save Address Book\n"
 					+ "4. SaveAs Address Book\n" + "5. Quit");
 			int choice = scanner.nextInt();
 			switch (choice) {
